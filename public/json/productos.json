@@ -1,0 +1,142 @@
+[{
+        "id": 1,
+        "idCategoria": "Premium",
+        "nombre": "Tomahawk",
+        "marca": "Carne Premium",
+        "modelo": "",
+        "precio": 2500,
+        "stock": 20,
+        "img": "cortetomahawk.jpg"
+    },
+    {
+        "id": 2,
+        "idCategoria": "Regulares",
+        "nombre": "Entraña",
+        "marca": "Carne Regular",
+        "modelo": "",
+        "precio": 1800,
+        "stock": 20,
+        "img": "corteEntraña.jpeg"
+    },
+    {
+        "id": 3,
+        "idCategoria": "Regulares",
+        "nombre": "Matambre",
+        "marca": "Carne Regular",
+        "modelo": "",
+        "precio": 1750,
+        "stock": 15,
+        "img": "cortematambre.jpeg"
+    },
+    {
+        "id": 4,
+        "idCategoria": "Regulares",
+        "nombre": "Tapa de Asado",
+        "marca": "Carne Regular",
+        "modelo": "",
+        "precio": 1800,
+        "stock": 30,
+        "img": "tapaasado.jpeg"
+    },
+    {
+        "id": 5,
+        "idCategoria": "Achuras",
+        "nombre": "Molleja",
+        "marca": "Achuras",
+        "modelo": "",
+        "precio": 1400,
+        "stock": 7,
+        "img": "molleja.jpeg"
+    },
+    {
+        "id": 6,
+        "idCategoria": "Regulares",
+        "nombre": "Cuadril",
+        "marca": "Carne Regular",
+        "modelo": "",
+        "precio": 1900,
+        "stock": 20,
+        "img": "cuadril.jpeg"
+    },
+    {
+        "id": 7,
+        "idCategoria": "Achuras",
+        "nombre": "Riñon",
+        "marca": "Achuras",
+        "modelo": "",
+        "precio": 1400,
+        "stock": 10,
+        "img": "riñon.jpeg"
+    },
+    {
+        "id": 8,
+        "idCategoria": "Regulares",
+        "nombre": "Costilla",
+        "marca": "Carne Regular",
+        "modelo": "",
+        "precio": 2000,
+        "stock": 30,
+        "img": "costilla.jpeg"
+    },
+    {
+        "id": 9,
+        "idCategoria": "Premium",
+        "nombre": "Prime Rib",
+        "marca": "Carne Premium",
+        "modelo": "",
+        "precio": 2400,
+        "stock": 21,
+        "img": "primerib.jpeg"
+    },
+    {
+        "id": 10,
+        "idCategoria": "Premium",
+        "nombre": "T-Bone",
+        "marca": "Carne Premium",
+        "modelo": "",
+        "precio": 2400,
+        "stock": 25,
+        "img": "cortetbone.jpeg"
+    },
+    {
+        "id": 11,
+        "idCategoria": "Premium",
+        "nombre": "Picanha",
+        "marca": "Carne Premium",
+        "modelo": "",
+        "precio": 2200,
+        "stock": 30,
+        "img": "picanha.jpeg"
+    },
+    {
+        "id": 12,
+        "idCategoria": "Premium",
+        "nombre": "Rack Ojo de Bife",
+        "marca": "Carne Premium",
+        "modelo": "",
+        "precio": 1500,
+        "stock": 20,
+        "img": "rackojobife.jpeg"
+    },
+    {
+        "id": 13,
+        "idCategoria": "Achuras",
+        "nombre": "Chinchulin",
+        "marca": "Achuras",
+        "modelo": "",
+        "precio": 1200,
+        "stock": 20,
+        "img": "chinchulin.jpeg"
+    },
+    {
+        "id": 14,
+        "idCategoria": "Achuras",
+        "nombre": "Chorizo",
+        "marca": "Achuras",
+        "modelo": "",
+        "precio": 1400,
+        "stock": 20,
+        "img": "chorizo.jpeg"
+    }
+
+]
