@@ -2,6 +2,8 @@ import React from 'react';
 import CartWidget from '../CartWidget/CartWidget';
 import Categorias from './Categorias/Categorias';
 import Secciones from './Secciones/Secciones';
+import BotonDarkMode from './BotonDarkMode/BotonDarkMode';
+
 
 const Navbar = () => {
     return (
@@ -20,7 +22,9 @@ const Navbar = () => {
       
               </div>
             </div>
+            <BotonDarkMode/>
             <CartWidget CantCarrito={7}/> 
+            
           </nav>
 
             

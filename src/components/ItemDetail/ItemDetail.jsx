@@ -1,16 +1,16 @@
 import React from 'react';
 import ItemCount from '../ItemCount/ItemCount';
+import { useDarkModeContext } from '../../context/DarkModeContext';
 
-
-export const ItemDetail = ({item}) => {
-
-    const onAdd = (cantidad) => { 
+export const ItemDetail = ({item}) => { 
+    const {darkMode} = useDarkModeContext() 
+    const onAdd = (cantidad) => { // agregar producto al cart
         console.log(cantidad)
         console.log(item)
     }
 
     return (
-        <div className='row g-0 detalle'>
+        <div className='row g-0'>
             <div className="col-md-4">
                 <img src={`../img/${item.img}`} className="img-fluid rounded-start" alt={`Imagen de ${item.nombre}`} />
             </div>

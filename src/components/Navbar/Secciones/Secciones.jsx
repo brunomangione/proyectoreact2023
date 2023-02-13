@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Secciones = () => {
+const Secciones = React.memo (() => {
     return (
         <>
        
@@ -18,5 +18,5 @@ const Secciones = () => {
         </>
     );
 }
-
+)
 export default Secciones;
