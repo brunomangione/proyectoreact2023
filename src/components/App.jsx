@@ -11,29 +11,42 @@ import ItemListContainer from "./ItemListContainer/ItemListContainer";
 import ItemDetailContainer from './ItemDetailContainer/ItemDetailContainer';
 import Contacto from './Contacto/Contacto';
 import Cart from './Cart/Cart';
+import Checkout from './Checkout/Checkout';
 //Router
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 
-//Contexto
+//Context
 import { DarkModeProvider } from '../context/DarkModeContext';
+import { CarritoProvider } from '../context/CarritoContext';
+
+//Firebase
+import { cargarBDD } from '../firebase/firebase';
+import { getProductos } from '../firebase/firebase';
+import { updateProducto } from '../firebase/firebase';
 
 
 const App = () => {
+
+    //cargarBDD()
+    
     return (
 
         <>
         <BrowserRouter>
-            <DarkModeProvider>
-                <Navbar/>
-                <Routes>
-                    <Route path='/' element={<ItemListContainer/>}/> 
-                    <Route path='/item/:id' element={<ItemDetailContainer/>}/>
-                    <Route path='/category/:idCategoria' element={<ItemListContainer/>} />
-                    <Route path='/contacto' element={<Contacto/>}/> 
-                    <Route path='/cart' element={<Cart/>}/> 
-                </Routes>
-                <ToastContainer/>
-            </DarkModeProvider>
+            <CarritoProvider>
+                <DarkModeProvider>
+                    <Navbar/>
+                        <Routes>
+                            <Route path='/' element={<ItemListContainer/>}/> 
+                            <Route path='/item/:id' element={<ItemDetailContainer/>}/>
+                            <Route path='/category/:idCategoria' element={<ItemListContainer/>} />
+                            <Route path='/contacto' element={<Contacto/>}/> 
+                            <Route path='/cart' element={<Cart/>}/> 
+                            <Route path='/checkout' element={<Checkout/>}/> 
+                        </Routes>
+                        <ToastContainer/>
+                </DarkModeProvider>
+            </CarritoProvider>
         </BrowserRouter>
        
         </>

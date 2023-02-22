@@ -1,18 +1,21 @@
 import React from 'react';
 import ItemCount from '../ItemCount/ItemCount';
 import { useDarkModeContext } from '../../context/DarkModeContext';
+import { useCarritoContext } from '../../context/CarritoContext';
 
 export const ItemDetail = ({item}) => { 
     const {darkMode} = useDarkModeContext() 
+    const {addItem} = useCarritoContext()
+    
     const onAdd = (cantidad) => { // agregar producto al cart
-        console.log(cantidad)
-        console.log(item)
+        addItem(item,cantidad)
+        
     }
 
     return (
         <div className='row g-0'>
             <div className="col-md-4">
-                <img src={`../img/${item.img}`} className="img-fluid rounded-start" alt={`Imagen de ${item.nombre}`} />
+                <img src={item.img} className="img-fluid rounded-start" alt={`Imagen de ${item.nombre}`} />
             </div>
             <div className="col-md-8">
                 <div className="card-body">

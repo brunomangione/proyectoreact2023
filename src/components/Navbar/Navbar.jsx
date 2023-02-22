@@ -20,10 +20,11 @@ const Navbar = () => {
                 <Categorias/>
               </ul>
       
+              
+                <BotonDarkMode/>
+                <CartWidget/> 
               </div>
             </div>
-            <BotonDarkMode/>
-            <CartWidget CantCarrito={7}/> 
             
           </nav>
 
