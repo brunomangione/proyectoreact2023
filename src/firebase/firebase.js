@@ -1,6 +1,7 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getFirestore, collection, doc, addDoc, getDoc, getDocs, updateDoc, deleteDoc } from 'firebase/firestore'
+import { where, query } from "firebase/firestore";
 
 import { getAnalytics } from "firebase/analytics";
 // TODO: Add SDKs for Firebase products that you want to use
@@ -9,7 +10,7 @@ import { getAnalytics } from "firebase/analytics";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-    apiKey: "AIzaSyBxHbaSTMSohYqeozr0SWSMXC_qOWlFF8k",
+    apiKey: process.env.API_KEY,
     authDomain: "proyectoreact2023.firebaseapp.com",
     projectId: "proyectoreact2023",
     storageBucket: "proyectoreact2023.appspot.com",
@@ -48,12 +49,13 @@ export const cargarBDD = async() => {
 
 }
 
-export const getProductos = async() => {
-    const productos = await getDocs(collection(db, "productos"))
+export const getProductos = async(categoria) => {
+    const data = categoria ? query(collection(db, "productos"), where("idCategoria", "==", categoria)) : collection(db, "productos")
+    const productos = await getDocs(data)
     const items = productos.docs.map(prod => {
         return {...prod.data(), id: prod.id }
     })
-
+    return items
 }
 
 export const getProducto = async(id) => {

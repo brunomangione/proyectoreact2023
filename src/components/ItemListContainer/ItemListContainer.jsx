@@ -15,25 +15,19 @@ export const ItemListContainer = () => {
     const {darkMode} = useDarkModeContext()
 
     useEffect(() => {
-        if(idCategoria) {
-            getProductos()
-            .then(items => {
-                const products = items.filter(prod => prod.stock > 0).filter(prod => prod.idCategoria === parseInt(idCategoria))
-                const productsList = <ItemList products={products} plantilla={'item'}/> //Array de productos en JSX
-                setProductos(productsList)
-            })
-        } else {
-            getProductos()
+        
+            getProductos(idCategoria)
             .then(items => {
                 const products = items.filter(prod => prod.stock > 0)
                 const productsList = <ItemList products={products} plantilla={'item'}/> //Array de productos en JSX
                 setProductos(productsList)
             })
-        }
+        
         
     }, [idCategoria])
     //[] cuando se renderiza
     //[prop] cuando se renderiza y cuando se actualiza
+    console.log(productos)
     return (
         <div className='row cardProductos'>
             {productos}
@@ -43,4 +37,3 @@ export const ItemListContainer = () => {
 
 
 export default ItemListContainer;
- 

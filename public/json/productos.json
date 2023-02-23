@@ -6,7 +6,7 @@
         "modelo": "",
         "precio": 2500,
         "stock": 20,
-        "img": "cortetomahawk.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/proyectoreact2023.appspot.com/o/cortetomahawk.jpg?alt=media&token=648995ed-2783-4410-9809-c4fe9f7177fd"
     },
     {
         "id": 2,
@@ -16,7 +16,7 @@
         "modelo": "",
         "precio": 1800,
         "stock": 20,
-        "img": "corteEntraña.jpeg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/proyectoreact2023.appspot.com/o/corteEntran%CC%83a.jpeg?alt=media&token=c1d3720d-952b-4032-8dc4-0fe957fe032f"
     },
     {
         "id": 3,
@@ -26,7 +26,7 @@
         "modelo": "",
         "precio": 1750,
         "stock": 15,
-        "img": "cortematambre.jpeg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/proyectoreact2023.appspot.com/o/cortematambre.jpeg?alt=media&token=770c2a22-d07c-4d20-90cd-41923e0a1f95"
     },
     {
         "id": 4,
@@ -36,7 +36,7 @@
         "modelo": "",
         "precio": 1800,
         "stock": 30,
-        "img": "tapaasado.jpeg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/proyectoreact2023.appspot.com/o/tapaasado.jpeg?alt=media&token=1f83c1dc-51a7-4369-aeb4-69a194da90de"
     },
     {
         "id": 5,
@@ -46,7 +46,7 @@
         "modelo": "",
         "precio": 1400,
         "stock": 7,
-        "img": "molleja.jpeg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/proyectoreact2023.appspot.com/o/molleja.jpeg?alt=media&token=d62d0538-5df3-4dd1-9d19-ed9b70ac20e1"
     },
     {
         "id": 6,
@@ -56,7 +56,7 @@
         "modelo": "",
         "precio": 1900,
         "stock": 20,
-        "img": "cuadril.jpeg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/proyectoreact2023.appspot.com/o/cuadril.jpeg?alt=media&token=7752bc47-cb9e-4ce0-8292-3d8ecfbf3737"
     },
     {
         "id": 7,
@@ -66,7 +66,7 @@
         "modelo": "",
         "precio": 1400,
         "stock": 10,
-        "img": "riñon.jpeg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/proyectoreact2023.appspot.com/o/rin%CC%83on.jpeg?alt=media&token=7a87d4c5-f341-45f0-8e6a-156c7f50511a"
     },
     {
         "id": 8,
@@ -76,7 +76,7 @@
         "modelo": "",
         "precio": 2000,
         "stock": 30,
-        "img": "costilla.jpeg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/proyectoreact2023.appspot.com/o/costilla.jpeg?alt=media&token=03c4e0f1-c158-456f-ac16-97ba5583123f"
     },
     {
         "id": 9,
@@ -86,7 +86,7 @@
         "modelo": "",
         "precio": 2400,
         "stock": 21,
-        "img": "primerib.jpeg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/proyectoreact2023.appspot.com/o/primerib.jpeg?alt=media&token=0f00ddaa-c016-4e30-ae9c-94d54ff63b92"
     },
     {
         "id": 10,
@@ -96,7 +96,7 @@
         "modelo": "",
         "precio": 2400,
         "stock": 25,
-        "img": "cortetbone.jpeg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/proyectoreact2023.appspot.com/o/cortetbone.jpeg?alt=media&token=b440676e-5d71-4ab9-879e-cf4605574cf8"
     },
     {
         "id": 11,
@@ -106,7 +106,7 @@
         "modelo": "",
         "precio": 2200,
         "stock": 30,
-        "img": "picanha.jpeg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/proyectoreact2023.appspot.com/o/picanha.jpeg?alt=media&token=7892e63b-3790-43de-9d70-b9e12552ee34"
     },
     {
         "id": 12,
@@ -116,7 +116,7 @@
         "modelo": "",
         "precio": 1500,
         "stock": 20,
-        "img": "rackojobife.jpeg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/proyectoreact2023.appspot.com/o/rackojobife.jpeg?alt=media&token=8b6b0779-1381-4cef-8860-07cfd34b4de8"
     },
     {
         "id": 13,
@@ -126,7 +126,7 @@
         "modelo": "",
         "precio": 1200,
         "stock": 20,
-        "img": "chinchulin.jpeg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/proyectoreact2023.appspot.com/o/chinchulin.jpeg?alt=media&token=887fc657-2491-4f10-875a-4a72101743bb"
     },
     {
         "id": 14,
@@ -136,7 +136,7 @@
         "modelo": "",
         "precio": 1400,
         "stock": 20,
-        "img": "chorizo.jpeg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/proyectoreact2023.appspot.com/o/chorizo.jpeg?alt=media&token=24e806b3-f108-435a-bb1c-4f01e7926d87"
     }
 
 ]
