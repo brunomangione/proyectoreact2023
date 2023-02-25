@@ -11,7 +11,7 @@
 }
 
 .cardBodyDark {
-    background-color: rgb(102, 7, 7);
+    background-color: grey;
     margin-bottom: 3px;
     text-align: center;
 }
@@ -32,12 +32,12 @@ img {
 }
 
 .itemDetailBodyDark {
-    background-color: hsl(0, 0, 33%);
+    background-color: rgb(5, 5, 5);
     color: white;
 }
 
 .darkMode {
-    background-color: black;
+    background-color: rgb(19, 19, 19);
     color: gainsboro;
 }
 
@@ -52,4 +52,27 @@ img {
 
 .cardCart {
     max-width: 640px;
+}
+
+.cantCarrito {
+    background-color: white;
+    text-decoration: solid;
+}
+
+.fail {
+    color: red;
+}
+
+.recetasBody {
+    text-align: center;
+    justify-content: center;
+    padding: 10%;
+    padding-top: 5%;
+}
+
+.imgReceta {
+    margin-left: 33%;
+    align-items: center;
+    justify-content: center;
+    max-width: 400px;
 }

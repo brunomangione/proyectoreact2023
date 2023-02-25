@@ -29,8 +29,8 @@ const Contacto = () => {
             <label htmlFor="Email" className="form-label mt-4">Email </label>
             <input type="email" className="form-control" name="email" placeholder="Email" />
             
-            <label htmlFor="celular" className="form-label mt-4">Celular </label>
-            <input type="celular" className="form-control" name="celular" placeholder="Celular" />
+            <label htmlFor="telefono" className="form-label mt-4">Telefono </label>
+            <input type="telefono" className="form-control" name="celular" placeholder="Telefono" />
 
             <label htmlFor="consulta" className="form-label mt-4">Consulta</label>
             <textarea className="form-control" name="consulta" rows={4} defaultValue={""} />

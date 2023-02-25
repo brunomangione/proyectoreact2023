@@ -12,6 +12,7 @@ import ItemDetailContainer from './ItemDetailContainer/ItemDetailContainer';
 import Contacto from './Contacto/Contacto';
 import Cart from './Cart/Cart';
 import Checkout from './Checkout/Checkout';
+import Recetas from './Recetas/Recetas';
 //Router
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 
@@ -40,6 +41,7 @@ const App = () => {
                             <Route path='/' element={<ItemListContainer/>}/> 
                             <Route path='/item/:id' element={<ItemDetailContainer/>}/>
                             <Route path='/category/:idCategoria' element={<ItemListContainer/>} />
+                            <Route path='/recetas' element={<Recetas/>}/> 
                             <Route path='/contacto' element={<Contacto/>}/> 
                             <Route path='/cart' element={<Cart/>}/> 
                             <Route path='/checkout' element={<Checkout/>}/> 
