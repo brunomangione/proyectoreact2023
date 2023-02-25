@@ -1,6 +1,6 @@
 # CODERHOUSE - Proyecto Final React Ecommerce -
 
-_Comision 39530 - Febrero 2023_
+_Comision 39530 - Febrero 2023_ -
 _El proyecto se trata de un ecommerce de ventas de carnes_
 
 
